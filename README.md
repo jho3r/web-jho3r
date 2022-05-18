@@ -1,2 +1,2 @@
 # web-template-react
-Template for frontend apps using react
+Personal website developed with React
