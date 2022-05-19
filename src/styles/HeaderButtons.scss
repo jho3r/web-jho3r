@@ -1,0 +1,50 @@
+@import 'vars';
+
+.HeaderButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.HeaderButtons{
+    li {
+        margin-left: $nav-button-margin-left;
+    }
+}
+
+.HeaderButtons {
+    li {
+        a {
+            color: $color-primary-dark;
+            text-decoration: none;
+            font-size: $nav-button-text-size;
+            font-family: $font-title;
+            transition: 0.3s;
+            &:hover {
+                color: $color-primary-light;
+            }
+        }
+    }
+
+    li:last-child {
+        a {
+            transition: 0.3s;
+            border: 2px solid $color-primary;
+            color: $color-primary;
+            border-radius: 30px;
+            padding: 10px 20px;
+            &:hover {
+                background-color: $color-primary;
+                color: $white;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: $max-width) {
+    .HeaderButtons {
+        display: none;
+    }
+}
