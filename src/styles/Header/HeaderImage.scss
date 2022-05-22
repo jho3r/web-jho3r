@@ -1,0 +1,9 @@
+@import '@styles/vars';
+
+.HeaderImage {
+    display: flex;
+    justify-content: center;
+    img {
+        height: 80vh;
+    }
+}

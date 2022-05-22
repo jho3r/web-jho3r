@@ -8,7 +8,9 @@
     "start": "webpack serve --open",
     "build": "webpack --mode production",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/jho3r/web-jho3r/issues"
   },
-  "homepage": "https://github.com/jho3r/web-jho3r#readme",
+  "homepage": "https://jho3r.github.io/web-jho3r",
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
@@ -47,6 +49,7 @@
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^4.0.0",
     "mini-css-extract-plugin": "^2.6.0",
     "sass": "^1.51.0",
     "sass-loader": "^12.6.0",

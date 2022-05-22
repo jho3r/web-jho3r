@@ -1,0 +1,22 @@
+@import '@styles/vars';
+
+.HeaderTitle {
+    .title {
+        font-size: $title-font-size;
+        color: $color-primary-dark;
+        margin: 0;
+        margin-bottom: $title-margin-bottom;
+    }
+
+    .subtitle {
+        font-size: $subtitle-font-size;
+        color: $color-primary;
+    }
+}
+
+@media (max-width: $max-width) {
+    .HeaderTitle {
+        text-align: center;
+    }
+}
+

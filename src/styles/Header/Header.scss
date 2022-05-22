@@ -1,0 +1,30 @@
+@import '@styles/vars';
+
+.Header {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+    padding: $section-margin;
+    position: relative;
+
+    .background {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+    }
+}
+
+
+
+@media (max-width: $max-width) {
+    .Header {
+        grid-template-columns: 1fr;
+
+        .background {
+            display: none;
+        }
+    }
+}

@@ -1,19 +1,19 @@
-@import 'vars';
+@import '@styles/vars';
 
-.HeaderButtons {
+.NavbarButtons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
 }
 
-.HeaderButtons{
+.NavbarButtons{
     li {
         margin-left: $nav-button-margin-left;
     }
 }
 
-.HeaderButtons {
+.NavbarButtons {
     li {
         a {
             color: $color-primary-dark;
@@ -45,7 +45,7 @@
 }
 
 @media (max-width: $max-width) {
-    .HeaderButtons {
+    .NavbarButtons {
         display: none;
     }
 }

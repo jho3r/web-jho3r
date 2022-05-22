@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '@styles/HeaderButtons.scss'
-import HeaderHamburger from './HeaderHamburger'
+import '@styles/Navbar/NavbarButtons.scss'
+import NavbarHamburger from './NavbarHamburger'
 
 const listButtons = [
   {
-    name: 'Portafolio',
+    name: 'Portfolio',
     path: '/portfolio'
   },
   //   {
@@ -13,19 +13,19 @@ const listButtons = [
   //     path: '/blog'
   //   },
   //   {
-  //     name: 'Cursos',
-  //     path: '/cursos'
+  //     name: 'Courses',
+  //     path: '/courses'
   //   },
   {
-    name: 'Contacto',
+    name: 'Contact',
     path: '/contact'
   }
 ]
 
-const HeaderButtons = () => {
+const NavbarButtons = () => {
   return (
     <React.Fragment>
-      <ul className="HeaderButtons">
+      <ul className="NavbarButtons">
         {listButtons.map((item, index) => {
           return (
             <li key={index}>
@@ -34,9 +34,9 @@ const HeaderButtons = () => {
           )
         })}
       </ul>
-      <HeaderHamburger />
+      <NavbarHamburger />
     </React.Fragment>
   )
 }
 
-export default HeaderButtons
+export default NavbarButtons
