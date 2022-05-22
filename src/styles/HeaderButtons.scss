@@ -20,20 +20,21 @@
             text-decoration: none;
             font-size: $nav-button-text-size;
             font-family: $font-title;
-            transition: 0.3s;
+            transition: 0.4s;
+            border-radius: 30px;
+            padding: 10px 20px;
+            border: 1px solid $color-back;
             &:hover {
                 color: $color-primary-light;
+                border: 1px solid $color-primary-light;
             }
         }
     }
 
     li:last-child {
         a {
-            transition: 0.3s;
             border: 2px solid $color-primary;
             color: $color-primary;
-            border-radius: 30px;
-            padding: 10px 20px;
             &:hover {
                 background-color: $color-primary;
                 color: $white;

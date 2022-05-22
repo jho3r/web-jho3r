@@ -1,0 +1,11 @@
+@import 'vars';
+
+.HeaderLogo {
+    position: relative;
+    height: 50px;
+    width: auto;
+    img {
+        position: absolute;
+        height: 50px;
+    }
+}

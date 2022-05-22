@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/HeaderHamburger.scss'
+import '@styles/HeaderHamburger.scss'
 
 const HeaderHamburger = () => {
   function handleClick (e) {

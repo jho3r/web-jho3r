@@ -1,7 +1,7 @@
 import React from 'react'
-import HeaderButtons from '../components/HeaderButtons'
-import HeaderLogo from '../components/HeaderLogo'
-import '../styles/Header.scss'
+import HeaderButtons from '@components/HeaderButtons'
+import HeaderLogo from '@components/HeaderLogo'
+import '@styles/Header.scss'
 
 const Header = () => {
   return (
