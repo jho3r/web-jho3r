@@ -8,13 +8,7 @@
     "start": "webpack serve --open",
     "build": "webpack --mode production",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jho3r/web-jho3r.git"
+    "lint:fix": "eslint src --fix"
   },
   "keywords": [
     "javascript",
@@ -23,12 +17,9 @@
   ],
   "author": "Jhoer Perez <jho3r>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jho3r/web-jho3r/issues"
-  },
-  "homepage": "https://jho3r.github.io/web-jho3r",
   "dependencies": {
     "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.18.0",
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.5",
