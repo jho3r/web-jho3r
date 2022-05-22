@@ -11,7 +11,7 @@ import '@styles/global.scss'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/web-jho3r'>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
