@@ -4,11 +4,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: $section-margin;
+    padding: $section-padding;
 }
 
 @media (max-width: $max-width) {
     nav {
         margin-bottom: $nav-margin-bottom-mobile;
+        padding: $section-padding-mobile;
     }
 }

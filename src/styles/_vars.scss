@@ -15,8 +15,8 @@ $font-body: "Open Sans", sans-serif;
 
 $max-width: 768px;
 
-$section-margin: 40px 100px 0;
-$section-margin-mobile: 60px;
+$section-padding: 40px 100px 0;
+$section-padding-mobile: 40px 40px 0;
 
 // navbar
 
@@ -24,10 +24,12 @@ $nav-button-margin-left: 20px;
 $nav-button-text-size: 1.2em;
 
 $nav-margin-bottom: 5px;
-$nav-margin-bottom-mobile: 60px;
+$nav-margin-bottom-mobile: 10px;
 
 // Header
 
-$title-font-size: 90px;
-$subtitle-font-size: 30px;
+$title-font-size: 5.5rem;
+$title-font-size-mobile: 3rem;
+$subtitle-font-size: 2rem;
+$subtitle-font-size-mobile: 1.5rem;
 $title-margin-bottom: 20px;

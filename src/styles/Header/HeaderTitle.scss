@@ -17,6 +17,12 @@
 @media (max-width: $max-width) {
     .HeaderTitle {
         text-align: center;
+        .title {
+            font-size: $title-font-size-mobile;
+        }
+        .subtitle {
+            font-size: $subtitle-font-size-mobile;
+        }
     }
 }
 

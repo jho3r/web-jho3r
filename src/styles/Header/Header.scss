@@ -2,9 +2,9 @@
 
 .Header {
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding: $section-margin;
+    padding: $section-padding;
     position: relative;
 
     .background {
@@ -22,6 +22,7 @@
 @media (max-width: $max-width) {
     .Header {
         grid-template-columns: 1fr;
+        padding: $section-padding-mobile;
 
         .background {
             display: none;
