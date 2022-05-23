@@ -1,0 +1,26 @@
+@import "@styles/vars";
+
+.HeaderJobs {
+  display: flex;
+  justify-content: center;
+  font-size: $type-demo-font-size;
+  font-family: $font-type;
+
+  .headerjobs-typedemo {
+    animation: blink 0.5s step-end infinite alternate;
+    border-right: 3px solid;
+  }
+
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media (max-width: $max-width) {
+  .HeaderJobs {
+    font-size: $type-demo-font-size-mobile;
+  }
+}
