@@ -5,7 +5,7 @@ function HeaderTitle (props) {
   return (
       <section className='HeaderTitle'>
             <p className='title'>Hi, I&apos;m <b>Jhoer</b></p>
-            <p className='subtitle'>Full Stack Developer and Electronic Engineering Student</p>
+            <p className='subtitle'>Software Developer and Electronic Engineering Student</p>
       </section>
   )
 }

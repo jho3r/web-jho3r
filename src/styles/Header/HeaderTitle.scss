@@ -2,6 +2,7 @@
 
 .HeaderTitle {
     .title {
+        font-family: $font-title;
         font-size: $title-font-size;
         color: $color-primary-dark;
         margin: 0;
@@ -9,6 +10,7 @@
     }
 
     .subtitle {
+        font-family: $font-subtitle;
         font-size: $subtitle-font-size;
         color: $color-primary;
     }
