@@ -1,0 +1,15 @@
+@import '@styles/vars';
+
+.CardSkills {
+    background-color: $color-back-light;
+    color: $color-primary-dark;
+    padding: $card-padding;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px #00000071;
+}
+
+@media (max-width: $max-width) {
+    .CardSkills {
+        padding: $card-padding-mobile;
+    }
+}

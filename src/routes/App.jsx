@@ -7,6 +7,7 @@ import Portfolio from '@pages/Portfolio'
 import Blog from '@pages/Blog'
 import Courses from '@pages/Courses'
 import Contact from '@pages/Contact'
+import ComingSoon from '@pages/ComingSoon'
 import '@styles/global.scss'
 
 const App = () => {
@@ -15,10 +16,10 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<ComingSoon />} />
+          <Route path="/blog" element={<ComingSoon />} />
+          <Route path="/courses" element={<ComingSoon />} />
+          <Route path="/contact" element={<ComingSoon />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

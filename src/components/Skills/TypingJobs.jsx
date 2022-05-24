@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react'
-import '@styles/Header/HeaderJobs.scss'
+import '@styles/Skills/TypingJobs.scss'
 
-const jobs = ['Software', 'Frontend', 'Backend', 'Fullstack', 'Mobile', 'Web']
+const jobs = ['Frontend', 'Backend', 'Fullstack', 'Mobile', 'Blockchain']
 let direction = 1
 let jobIndex = -1
 let currentJobIndex = -1
 
-const HeaderJobs = () => {
+const TypingJobs = () => {
   const [letters, setLetters] = useState('')
 
   useEffect(() => {
     setTimeout(() => {
       handleChange()
-    }, 100)
+    }, 200)
   }, [letters])
 
   const handleChange = () => {
@@ -40,11 +40,11 @@ const HeaderJobs = () => {
   }
 
   return (
-    <div className="HeaderJobs">
-      <p className="headerjobs-typedemo">{letters}</p>
-      <p className="headerjobs-typed">&nbsp;Developer</p>
+    <div className="TypingJobs">
+      <p className="typingjobs-typedemo">{letters}</p>
+      <p>&nbsp;Developer</p>
     </div>
   )
 }
 
-export default HeaderJobs
+export default TypingJobs

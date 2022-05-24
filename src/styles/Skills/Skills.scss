@@ -1,0 +1,12 @@
+@import '@styles/vars';
+
+.Skills {
+    background-image: linear-gradient($color-back-dark 70%, $color-back 70%);
+    padding: $section-padding;
+}
+
+@media (max-width: $max-width) {
+    .Skills {
+        padding: $section-padding-mobile;
+    }
+}

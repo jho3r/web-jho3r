@@ -3,12 +3,12 @@ $color-primary-dark: #1A374D;
 $color-primary: #406882;
 $color-primary-light: #6998AB;
 
-$color-back-light: #B1D0E0;
+$color-back-light: #bed4dff5;
 $color-back: #fff;
 $color-back-dark: #1A374D;
 
-$white: #fff;
-$black: #000;
+$color-white: #fff;
+$color-black: #000;
 
 $font-title: "Open Sans", sans-serif;
 $font-body: "Open Sans", sans-serif;
@@ -19,7 +19,7 @@ $font-type: "monospace";
 $max-width: 768px;
 
 $section-padding: 40px 100px 0;
-$section-padding-mobile: 40px 40px 0;
+$section-padding-mobile: 30px 30px 0;
 
 // navbar
 
@@ -39,3 +39,8 @@ $title-margin-bottom: 20px;
 
 $type-demo-font-size: 3em;
 $type-demo-font-size-mobile: 1.5em;
+
+// Jobs
+
+$card-padding: 60px;
+$card-padding-mobile: 30px;
