@@ -4,12 +4,20 @@
     display: grid;
     place-items: center;
     height: 80vh;
-    font-size: $type-demo-font-size;
+    font-size: 2em;
     font-family: $font-type;
     color: $color-primary;
+    padding: $section-padding;
     
     .typedemo {
         animation: blink 0.5s step-end infinite alternate;
         border-right: 3px solid;
+    }
+}
+
+@media (max-width: $max-width) {
+    .ComingSoon {
+        padding: $section-padding-mobile;
+        font-size: 1.2em;
     }
 }
