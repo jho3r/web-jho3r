@@ -1,231 +1,147 @@
 const data = [
   {
     title: 'Front-End',
-    description: 'I enjoy building web applications from scratch. And I alwais strive to learn new technologies and frameworks.',
-    skills: [
+    description: 'I enjoy building web applications from scratch. And I always strive to learn new technologies and frameworks.',
+    technologies: [
       {
-        title: 'HTML5',
-        level: '90%'
-      },
-      {
-        title: 'CSS3',
-        level: '90%'
+        title: 'HTML5 & CSS3',
+        year: 2019
       },
       {
         title: 'JavaScript',
-        level: '90%'
-      },
-      {
-        title: 'jQuery',
-        level: '90%'
+        year: 2019
       },
       {
         title: 'Bootstrap',
-        level: '90%'
+        year: 2020
       },
       {
         title: 'React',
-        level: '90%'
-      },
-      {
-        title: 'Angular',
-        level: '90%'
-      },
-      {
-        title: 'Vue',
-        level: '90%'
+        year: 2021
       },
       {
         title: 'Sass',
-        level: '90%'
+        year: 2022
       },
       {
-        title: 'Git',
-        level: '90%'
-      },
-      {
-        title: 'GitHub',
-        level: '90%'
+        title: 'Git & GitHub',
+        year: 2019
       },
       {
         title: 'Webpack',
-        level: '90%'
-      },
-      {
-        title: 'NPM',
-        level: '90%'
+        year: 2022
       }
     ]
   },
   {
     title: 'Back-End',
-    description: 'It\'s like my front-end skills, but for the back-end. I am a big fan of Node.js and Express.js.',
-    skills: [
+    description: 'I like to combine my knowledge of front-end and back-end to create robust and scalable applications.',
+    technologies: [
       {
-        title: 'Node.js',
-        level: '90%'
+        title: 'JavaScript',
+        year: 2020
       },
       {
-        title: 'Express.js',
-        level: '90%'
-      },
-      {
-        title: 'MongoDB',
-        level: '90%'
-      },
-      {
-        title: 'MySQL',
-        level: '90%'
-      },
-      {
-        title: 'PostgreSQL',
-        level: '90%'
-      },
-      {
-        title: 'Sequelize',
-        level: '90%'
-      },
-      {
-        title: 'Passport',
-        level: '90%'
-      },
-      {
-        title: 'JWT',
-        level: '90%'
-      },
-      {
-        title: 'Socket.io',
-        level: '90%'
-      },
-      {
-        title: 'WebSockets',
-        level: '90%'
-      },
-      {
-        title: 'Flask',
-        level: '90%'
-      },
-      {
-        title: 'Django',
-        level: '90%'
+        title: 'Python',
+        year: 2020
       },
       {
         title: 'Java',
-        level: '90%'
+        year: 2019
       },
       {
-        title: 'Spring',
-        level: '90%'
+        title: 'Node.js',
+        year: 2020
+      },
+      {
+        title: 'Express.js',
+        year: 2020
+      },
+      {
+        title: 'Flask',
+        year: 2021
+      },
+      {
+        title: 'MongoDB',
+        year: 2020
+      },
+      {
+        title: 'Redis',
+        year: 2021
+      },
+      {
+        title: 'SQL',
+        year: 2021
+      },
+      {
+        title: 'Firestore',
+        year: 2020
       }
     ]
   },
   {
     title: 'Mobile',
-    description: 'I am a big fan of mobile apps. You are always in the pocket of your costumer.',
-    skills: [
-      {
-        title: 'React Native',
-        level: '90%'
-      },
-      {
-        title: 'Ionic',
-        level: '90%'
-      },
+    description: 'I am a big fan of mobile apps. For every problem I have in my day-to-day life, I build a mobile app.',
+    technologies: [
       {
         title: 'Flutter',
-        level: '90%'
+        year: 2021
       },
       {
         title: 'Kotlin',
-        level: '90%'
+        year: 2021
       },
       {
         title: 'Java',
-        level: '90%'
+        year: 2019
       },
       {
         title: 'Android',
-        level: '90%'
-      },
-      {
-        title: 'iOS',
-        level: '90%'
+        year: 2019
       }
     ]
   },
   {
     title: 'DevOps',
-    description: 'I am a big fan of cloud computing. I am always trying to learn new technologies and frameworks.',
-    skills: [
-      {
-        title: 'AWS',
-        level: '90%'
-      },
-      {
-        title: 'Azure',
-        level: '90%'
-      },
+    description: 'It\'s not my greatest skill, but I love to work with tools that help me to automate my work. And make the team life easier.',
+    technologies: [
       {
         title: 'Google Cloud',
-        level: '90%'
+        year: 2021
       },
       {
         title: 'Firebase',
-        level: '90%'
-      },
-      {
-        title: 'Kubernetes',
-        level: '90%'
+        year: 2020
       },
       {
         title: 'Docker',
-        level: '90%'
-      },
-      {
-        title: 'GitLab CI/CD',
-        level: '90%'
-      },
-      {
-        title: 'Jenkins',
-        level: '90%'
-      },
-      {
-        title: 'CircleCI',
-        level: '90%'
-      },
-      {
-        title: 'GitLab',
-        level: '90%'
+        year: 2021
       },
       {
         title: 'Travis CI',
-        level: '90%'
+        year: 2021
       },
       {
         title: 'Heroku',
-        level: '90%'
+        year: 2020
       }
     ]
   },
   {
     title: 'Blockchain',
-    description: 'I am a big fan of blockchain. I am always trying to learn new technologies and frameworks.',
-    skills: [
+    description: 'I\'m a newbie in blockchain, but I think it\'s the future and the more I learn, the more I like it.',
+    technologies: [
       {
         title: 'Ethereum',
-        level: '90%'
+        year: 2022
       },
       {
         title: 'Solidity',
-        level: '90%'
+        year: 2022
       },
       {
         title: 'Truffle',
-        level: '90%'
-      },
-      {
-        title: 'Hyperledger',
-        level: '90%'
+        year: 2022
       }
     ]
   }

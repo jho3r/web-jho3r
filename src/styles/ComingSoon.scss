@@ -1,13 +1,16 @@
 @import '@styles/vars';
 
 .ComingSoon {
+    position: absolute;
     display: grid;
     place-items: center;
-    height: 80vh;
+    height: 100vh;
+    width: 100%;
+    top: 0;
     font-size: 2em;
     font-family: $font-type;
     color: $color-primary;
-    padding: $section-padding;
+    z-index: -1;
     
     .typedemo {
         animation: blink 0.5s step-end infinite alternate;

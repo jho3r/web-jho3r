@@ -1,0 +1,37 @@
+@import '@styles/vars';
+
+.SkillDescription {
+    color: $color-primary-dark;
+    
+    h2 {
+        margin: 0;
+        font-size: $card-title-font-size;
+        font-family: $font-title;
+    }
+
+    p {
+        font-size: $card-text-font-size;
+        font-family: $font-body;
+    }
+
+    h3 {
+        margin-top: 40px;
+        font-family: $font-subtitle;
+        font-size: $card-subtitle-font-size;
+    }
+}
+
+@media (max-width: $max-width) {
+    .SkillDescription {
+        h2 {
+            font-size: $card-title-font-size-mobile;
+        }
+        p {
+            font-size: $card-text-font-size-mobile;
+        }
+        h3 {
+            margin: inherit;
+            font-size: $card-subtitle-font-size-mobile;
+        }
+    }
+}

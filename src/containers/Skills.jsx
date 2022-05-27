@@ -10,8 +10,8 @@ const Experience = () => {
     <section className='Skills'>
       <TypingJobs />
       <CardSkills>
-          {window.innerWidth > 768 && <TabSkillsVertical />}
-          {window.innerWidth <= 768 && <TabSkillsHorizontal />}
+          {window.innerWidth > 1000 && <TabSkillsVertical />}
+          {window.innerWidth <= 1000 && <TabSkillsHorizontal />}
       </CardSkills>
     </section>
   )
