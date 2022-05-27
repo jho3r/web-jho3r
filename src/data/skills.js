@@ -1,7 +1,7 @@
 const data = [
   {
     title: 'Front-End',
-    description: 'I enjoy building web applications from scratch. And I always strive to learn new technologies and frameworks.',
+    description: 'I enjoy building web applications from scratch. And I always strive to learn new frameworks.',
     technologies: [
       {
         title: 'HTML & CSS',
@@ -44,10 +44,6 @@ const data = [
       {
         title: 'Python',
         year: 2020
-      },
-      {
-        title: 'Java',
-        year: 2019
       },
       {
         title: 'Node.js',
@@ -103,10 +99,10 @@ const data = [
   },
   {
     title: 'DevOps',
-    description: 'It\'s not my greatest skill, but I love to work with tools that help me to automate my work. And make the team life easier.',
+    description: 'It\'s not my greatest skill, but I love to work with tools that help me to automate my teams work.',
     technologies: [
       {
-        title: 'Google Cloud',
+        title: 'GCP',
         year: 2021
       },
       {
@@ -129,7 +125,7 @@ const data = [
   },
   {
     title: 'Blockchain',
-    description: 'I\'m a newbie in blockchain, but I think it\'s the future and the more I learn, the more I like it.',
+    description: 'I\'m a newbie in blockchain, but I think it\'s the future and also the more I learn, the more I like it.',
     technologies: [
       {
         title: 'Ethereum',

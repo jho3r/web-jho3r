@@ -21,7 +21,7 @@ function HorizontalTabs ({ data, Component }) {
   // log the screen size
   return (
     <Box sx={{ width: '100%', typography: 'body1' }}>
-    <Box sx={{ flexGrow: 1, display: 'flex' }}>
+    <Box sx={{ flexGrow: 1, display: 'flex', margin: '0 20px' }}>
       <Tabs
         variant="scrollable"
         value={value}

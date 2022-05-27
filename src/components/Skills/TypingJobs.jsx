@@ -25,7 +25,6 @@ const TypingJobs = () => {
     }
     if (letters === jobs[jobIndex]) {
       setTimeout(() => {
-        console.log('change')
         currentJobIndex--
         direction = -1
         changeWord()
