@@ -10,6 +10,7 @@ import {
   Tooltip,
   Legend
 } from 'chart.js'
+import '@styles/Charts/BarChart.scss'
 
 ChartJS.register(
   CategoryScale,
@@ -35,7 +36,8 @@ const BarChart = (props) => {
   }
   const options = {
     indexAxis: axis,
-    responsive: true
+    responsive: true,
+    maintainAspectRatio: false
   }
   ChartJS.defaults.font.size = 15
   ChartJS.defaults.color = '#1A374D'

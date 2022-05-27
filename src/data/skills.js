@@ -4,7 +4,7 @@ const data = [
     description: 'I enjoy building web applications from scratch. And I always strive to learn new technologies and frameworks.',
     technologies: [
       {
-        title: 'HTML5 & CSS3',
+        title: 'HTML & CSS',
         year: 2019
       },
       {
