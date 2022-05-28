@@ -1,0 +1,31 @@
+@import '@styles/vars';
+
+.RecentWork {
+    padding: $section-padding;
+    text-align: center;
+
+    h2 {
+        font-size: $font-size-title;
+        font-family: $font-title;
+    }
+
+    p {
+        font-size: $font-size-subtitle;
+        font-family: $font-subtitle;
+    }
+}
+
+
+@media (max-width: $max-width) {
+    .RecentWork {
+        padding: $section-padding-mobile;
+
+        h2 {
+            font-size: $font-size-title-mobile;
+        }
+
+        p {
+            font-size: $font-size-subtitle-mobile;
+        }
+    }
+}

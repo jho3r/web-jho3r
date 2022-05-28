@@ -16,6 +16,13 @@ $font-buttons: "Open Sans", sans-serif;
 $font-subtitle: "Open Sans", sans-serif;
 $font-type: "monospace";
 
+$font-size-title: 2.5rem;
+$font-size-title-mobile: 2rem;
+$font-size-subtitle: 1.5rem;
+$font-size-subtitle-mobile: 1.2rem;
+$font-size-body: 1.2rem;
+$font-size-body-mobile: 1.2rem;
+
 $max-width: 768px;
 
 $section-padding: 40px 100px 0;
@@ -50,3 +57,7 @@ $card-text-font-size: 1.2em;
 $card-text-font-size-mobile: 1em;
 $card-subtitle-font-size: 1.2em;
 $card-subtitle-font-size-mobile: 1em;
+
+// Recent Work
+$recent-work-card-padding: 30px;
+$colors: red, orange, yellow, green, blue, purple;

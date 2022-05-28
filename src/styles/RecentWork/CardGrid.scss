@@ -1,0 +1,16 @@
+@import '@styles/vars';
+
+.CardGrid {
+    width: 100%;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: $max-width) {
+    .CardGrid {
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    }
+}

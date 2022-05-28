@@ -1,0 +1,82 @@
+@import '@styles/vars';
+
+.Card {
+    position: relative;
+    width: 22rem;
+    height: 18rem;
+    margin: 10px;
+
+    .Card__image, .Card__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 80%;
+        display: grid;
+        place-content: center;
+        border-radius: 15px;
+        text-align: center;
+        padding: 10%;
+    }
+
+    .Card__image {
+        transition: 0.4s;
+        img {
+            transition: 0.4s;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .Card__content {
+        z-index: 2;
+        color: $color-white;
+        background-color: $color-back-dark;
+        opacity: 0;
+        transition: 0.6s;
+
+        .Card__description {
+            font-size: $font-size-body;
+            font-family: $font-body;
+        }
+
+        .Card__link {
+            font-size: $font-size-body;
+            font-family: $font-body;
+            color: $color-secondary;
+            text-decoration: none;
+        }
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.1);
+            transition: 0.6s;
+        }
+        .Card__image {
+            opacity: 0;
+            transition: 0.6;
+        }
+        .Card__content {
+            opacity: 1;
+            transition: 0.4;
+        }
+    }
+}
+
+@media (max-width: $max-width) {
+    .Card {
+        width: 19rem;
+        height: 19rem;
+        margin: 5px;
+
+
+        .Card__description {
+            font-size: $font-size-body-mobile;
+        }
+
+        .Card__link {
+            font-size: $font-size-body-mobile;
+        }
+    }
+}
