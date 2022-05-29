@@ -5,13 +5,22 @@
     text-align: center;
 
     h2 {
-        font-size: $font-size-title;
-        font-family: $font-title;
+        font-size: $font-size-subtitle;
+        font-family: $font-subtitle;
+        margin-top: 3rem;
     }
 
     p {
-        font-size: $font-size-subtitle;
-        font-family: $font-subtitle;
+        font-size: $font-size-body;
+        font-family: $font-body;
+        margin-bottom: 2rem;
+    }
+
+    hr {
+        width: 100%;
+        border: 1px solid $color-primary-dark;
+        margin: 3rem auto;
+        opacity: 0.1;
     }
 }
 
@@ -21,11 +30,11 @@
         padding: $section-padding-mobile;
 
         h2 {
-            font-size: $font-size-title-mobile;
+            font-size: $font-size-subtitle-mobile;
         }
 
         p {
-            font-size: $font-size-subtitle-mobile;
+            font-size: $font-size-body-mobile;
         }
     }
 }

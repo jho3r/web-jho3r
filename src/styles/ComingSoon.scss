@@ -4,9 +4,10 @@
     position: absolute;
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     top: 0;
+    left: 0;
     font-size: 2em;
     font-family: $font-type;
     color: $color-primary;
@@ -20,7 +21,6 @@
 
 @media (max-width: $max-width) {
     .ComingSoon {
-        padding: $section-padding-mobile;
         font-size: 1.2em;
     }
 }

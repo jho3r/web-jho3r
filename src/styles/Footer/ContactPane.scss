@@ -1,0 +1,32 @@
+@import '@styles/vars';
+
+.ContactPane {
+    display: grid;
+    padding: 60px 20px;
+    background-color: $color-back-light;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    color: $color-primary-dark;
+    box-shadow: $box-shadow-dark;
+
+    h2 {
+        font-size: $font-size-subtitle;
+        font-family: $font-subtitle;
+        margin:0;
+    }
+
+    p {
+        font-size: $font-size-body;
+        font-family: $font-body;
+        margin:0;
+    }
+}
+
+@media (max-width: $max-width) {
+    .ContactPane {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2.2fr 1fr;
+        padding: 30px;
+    }
+}

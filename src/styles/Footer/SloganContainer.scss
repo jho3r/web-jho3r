@@ -1,0 +1,16 @@
+@import '@styles/vars';
+
+.SloganContainer {
+    width: 400px;
+
+    h2 {
+        font-size: $font-size-subtitle;
+        font-family: $font-subtitle;
+        color: $color-primary-light;
+        letter-spacing: -0.1rem;
+
+        span {
+            display: block;
+        }
+    }
+}

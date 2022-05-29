@@ -1,32 +1,35 @@
 import React from 'react'
-import Button from '@mui/material/Button'
+import PropTypes from 'prop-types'
+import Button from '@components/Button'
 import '@styles/RecentWork/Card.scss'
 
-const Card = () => {
+const colors = ['#1A374D', '#B56847', '#406882', '#415666', '#97992C', '#8486B3']
+
+const Card = (props) => {
+  const { description, image, link } = props
+  const randomColor = colors[Math.floor(Math.random() * colors.length)]
+
   return (
     <div className="Card">
-      <div className="Card__image" style={{ backgroundColor: 'red' }}>
-        <img src="https://via.placeholder.com/300x200" alt="placeholder" />
+      <div className="Card__image" style={{ backgroundColor: `${randomColor}` }}>
+        <img src={image} alt="placeholder" />
       </div>
       <div className="Card__content">
         <p className="Card__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          euismod, nisi vel consectetur euismod, nisi lectus tincidunt nisi,
-          eget consectetur nisl nisl eget lectus.
+          {description}
         </p>
-        <Button variant="outlined" color="warning" size='small'>
-          <a
-            className="Card__link"
-            href="https://www.google.com"
-            target={'_blank'}
-            rel="noreferrer"
-          >
+        <Button dark={false} link={link}>
             View Project
-          </a>
         </Button>
       </div>
     </div>
   )
+}
+
+Card.propTypes = {
+  description: PropTypes.string,
+  image: PropTypes.string,
+  link: PropTypes.string
 }
 
 export default Card

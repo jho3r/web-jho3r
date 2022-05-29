@@ -2,9 +2,8 @@
 
 .Card {
     position: relative;
-    width: 22rem;
+    width: 21rem;
     height: 18rem;
-    margin: 10px;
 
     .Card__image, .Card__content {
         position: absolute;
@@ -14,9 +13,11 @@
         height: 80%;
         display: grid;
         place-content: center;
+        justify-items: center;
         border-radius: 15px;
         text-align: center;
-        padding: 10%;
+        padding: 8% 10%;
+        box-shadow: $box-shadow-dark;
     }
 
     .Card__image {
@@ -38,13 +39,7 @@
         .Card__description {
             font-size: $font-size-body;
             font-family: $font-body;
-        }
-
-        .Card__link {
-            font-size: $font-size-body;
-            font-family: $font-body;
-            color: $color-secondary;
-            text-decoration: none;
+            margin-top: 0;
         }
     }
 

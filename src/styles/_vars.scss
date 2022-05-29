@@ -1,7 +1,9 @@
 $color-secondary: #B56847;
+$color-secondary-light: #B56847;
 $color-primary-dark: #1A374D;
 $color-primary: #406882;
 $color-primary-light: #6998AB;
+$color-primary-light-opacity: #6998ab88;
 
 $color-back-light: #bed4dff5;
 $color-back: #fff;
@@ -18,15 +20,17 @@ $font-type: "monospace";
 
 $font-size-title: 2.5rem;
 $font-size-title-mobile: 2rem;
-$font-size-subtitle: 1.5rem;
-$font-size-subtitle-mobile: 1.2rem;
+$font-size-subtitle: 2.2rem;
+$font-size-subtitle-mobile: 1.5rem;
 $font-size-body: 1.2rem;
-$font-size-body-mobile: 1.2rem;
+$font-size-body-mobile: 1rem;
 
 $max-width: 768px;
 
 $section-padding: 40px 100px 0;
 $section-padding-mobile: 30px 30px 0;
+
+$box-shadow-dark: 0px 0px 10px 2px #00000071;
 
 // navbar
 
