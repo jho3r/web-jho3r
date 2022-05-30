@@ -6,12 +6,12 @@ import '@styles/RecentWork/Card.scss'
 const colors = ['#1A374D', '#B56847', '#406882', '#415666', '#97992C', '#8486B3']
 
 const Card = (props) => {
-  const { description, image, link } = props
+  const { description, image, link, background } = props
   const randomColor = colors[Math.floor(Math.random() * colors.length)]
 
   return (
     <div className="Card">
-      <div className="Card__image" style={{ backgroundColor: `${randomColor}` }}>
+      <div className="Card__image" style={{ backgroundColor: `${background || randomColor}` }}>
         <img src={image} alt="placeholder" />
       </div>
       <div className="Card__content">
@@ -29,7 +29,8 @@ const Card = (props) => {
 Card.propTypes = {
   description: PropTypes.string,
   image: PropTypes.string,
-  link: PropTypes.string
+  link: PropTypes.string,
+  background: PropTypes.string
 }
 
 export default Card

@@ -18,9 +18,10 @@ const CardGrid = () => {
               return (
                     <Card
                         key={index}
-                        description={project.description}
+                        description={project.headline}
                         image={project.image}
                         link={project.link}
+                        background={project.background}
                     />
               )
             })}
