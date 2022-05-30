@@ -6,8 +6,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'web-jho3r/bundle.js',
-    publicPath: '/web-jho3r/'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   mode: 'development',
   resolve: {
