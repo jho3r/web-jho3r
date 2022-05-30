@@ -28,17 +28,6 @@ const projects = [
     background: '#609165'
   },
   {
-    title: 'Personal website',
-    headline: 'A simple personal website to render basic information.',
-    description: '',
-    image: personal,
-    link: 'https://jho3r.github.io/web-course-personalsite/',
-    technologies: ['HTML', 'CSS'],
-    date: '2020-05-01',
-    categories: ['Frontend'],
-    background: '#FFFFFF'
-  },
-  {
     title: 'MonitorFlux Webpage',
     headline: 'A landing page for a monitoring android App.',
     description: '',
@@ -69,6 +58,17 @@ const projects = [
     technologies: ['Android', 'Kotlin', 'Firebase', 'Material Design', 'Illustrator'],
     date: '2020-05-01',
     categories: ['Mobile']
+  },
+  {
+    title: 'Personal website',
+    headline: 'A simple personal website to render basic information.',
+    description: '',
+    image: personal,
+    link: 'https://jho3r.github.io/web-course-personalsite/',
+    technologies: ['HTML', 'CSS'],
+    date: '2020-05-01',
+    categories: ['Frontend'],
+    background: '#FFFFFF'
   }
 ]
 
