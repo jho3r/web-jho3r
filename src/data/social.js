@@ -46,7 +46,7 @@ const social = [
   },
   {
     name: 'youtube',
-    url: 'https://www.youtube.com/channel/UCPOOoSGYmk8z-PDRb5uLlTA',
+    url: 'https://www.youtube.com/@jho3r',
     icon: 'youtube',
     color: '#ff0000',
     hoverColor: '#fff',

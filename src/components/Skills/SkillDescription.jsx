@@ -10,8 +10,9 @@ const SkillDescription = ({ data }) => {
   })
   const labels = data.technologies.map((skill) => skill.title)
   const label = 'Experience (years)'
-  const currentYear = new Date().getFullYear()
-  const dataSet = data.technologies.map((skill) => (currentYear - parseInt(skill.year)) || 0.5)
+  const dataSet = data.technologies.map((skill) => {
+    return skill.years.length || 0.5
+  })
   const axis = 'y'
   const color = '#B56847'
 

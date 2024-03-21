@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import '@styles/Skills/TypingJobs.scss'
 
-const jobs = ['Frontend', 'Backend', 'Fullstack', 'Mobile', 'Blockchain']
+const jobs = ['Backend', 'Fullstack', 'Blockchain']
 let direction = 1
 let jobIndex = -1
 let currentJobIndex = -1

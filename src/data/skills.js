@@ -5,73 +5,73 @@ const data = [
     technologies: [
       {
         title: 'HTML & CSS',
-        year: 2019
+        years: [2021, 2022, 2023]
       },
       {
         title: 'JavaScript',
-        year: 2019
-      },
-      {
-        title: 'Bootstrap',
-        year: 2020
+        years: [2021, 2022, 2023]
       },
       {
         title: 'React',
-        year: 2021
+        years: [2021, 2022]
       },
       {
-        title: 'Sass',
-        year: 2022
-      },
-      {
-        title: 'Git & GitHub',
-        year: 2019
+        title: 'Next.js',
+        years: [2022, 2023]
       },
       {
         title: 'Webpack',
-        year: 2022
+        years: [2022]
       }
     ]
   },
   {
     title: 'Back-End',
-    description: 'I like to combine my knowledge of front-end and back-end to create robust and scalable applications.',
+    description: 'This is my main skill. I love to build APIs and work with new architectures to make high performance applications.',
     technologies: [
       {
-        title: 'JavaScript',
-        year: 2020
+        title: 'Go',
+        years: [2022, 2023, 2024]
+      },
+      {
+        title: 'JavaScript(Node.js)',
+        years: [2021, 2022, 2023, 2024]
       },
       {
         title: 'Python',
-        year: 2020
+        years: [2020, 2022, 2023]
       },
       {
-        title: 'Node.js',
-        year: 2020
+        title: 'Java',
+        years: [2021]
+      },
+      {
+        title: 'C++',
+        years: [2021]
       },
       {
         title: 'Express.js',
-        year: 2020
+        years: [2021, 2022, 2023, 2024]
       },
       {
         title: 'Flask',
-        year: 2021
+        years: [2021]
       },
       {
         title: 'MongoDB',
-        year: 2020
+        years: [2020]
       },
       {
         title: 'Redis',
-        year: 2021
+        years: [2022, 2023, 2024]
       },
       {
-        title: 'SQL',
-        year: 2021
+        title: 'Postgres',
+        years: [2021, 2022, 2023, 2024]
       },
       {
         title: 'Firestore',
-        year: 2020
+        years: [2020]
       }
     ]
   },
@@ -81,19 +81,15 @@ const data = [
     technologies: [
       {
         title: 'Flutter',
-        year: 2021
+        years: [2019]
       },
       {
         title: 'Kotlin',
-        year: 2021
+        years: [2023]
       },
       {
         title: 'Java',
-        year: 2019
-      },
-      {
-        title: 'Android',
-        year: 2019
+        years: [2021]
       }
     ]
   },
@@ -102,24 +98,28 @@ const data = [
     description: 'It\'s not my greatest skill, but I love to work with tools that help me to automate my teams work.',
     technologies: [
       {
+        title: 'Git & GitHub',
+        years: [2020, 2021, 2022, 2023, 2024]
+      },
+      {
         title: 'GCP',
-        year: 2021
+        years: [2022]
+      },
+      {
+        title: 'AWS',
+        years: [2023, 2024]
       },
       {
         title: 'Firebase',
-        year: 2020
+        years: [2020]
       },
       {
         title: 'Docker',
-        year: 2021
+        years: [2022, 2023]
       },
       {
-        title: 'Travis CI',
-        year: 2021
-      },
-      {
-        title: 'Heroku',
-        year: 2020
+        title: 'Jenkins',
+        years: [2023]
       }
     ]
   },
@@ -129,15 +129,15 @@ const data = [
     technologies: [
       {
         title: 'Ethereum',
-        year: 2022
+        years: [2022]
       },
       {
         title: 'Solidity',
-        year: 2022
+        years: [2022]
       },
       {
         title: 'Truffle',
-        year: 2022
+        years: [2022]
       }
     ]
   }

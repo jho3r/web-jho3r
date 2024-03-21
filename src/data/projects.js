@@ -4,8 +4,30 @@ import personal from '@assets/projects/personal.svg'
 import monitor from '@assets/projects/monitor.svg'
 import pomodore from '@assets/projects/pomodore.svg'
 import finance from '@assets/projects/finance.png'
+import storemanager from '@assets/projects/storemanager.png'
+import sellochained from '@assets/projects/sellochained.png'
 
 const projects = [
+  {
+    title: 'Store Manager',
+    headline: "A desktop app to manage a store's inventory and sales.",
+    description: '',
+    image: storemanager,
+    link: 'https://github.com/jho3r/store-manager-desktop',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Next.js', 'Electron', 'Node.js'],
+    date: '2023-09-24',
+    categories: ['Frontend', 'Backend']
+  },
+  {
+    title: 'Sello Chained CO2',
+    headline: 'An smart contract that integrates with a web app to sell CO2 consumption certificates as NFTs.',
+    description: '',
+    image: sellochained,
+    link: 'https://github.com/jho3r/blkchn-sello-chained-co2',
+    technologies: ['Solidity', 'React', 'Web3.js', 'Javascript', 'Hardhat'],
+    date: '2022-09-24',
+    categories: ['Frontend', 'Backend', 'Blockchain']
+  },
   {
     title: "Todo's App",
     headline: "A simple todo's app with a simple UI.",
